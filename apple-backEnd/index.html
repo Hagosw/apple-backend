@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MysqlPractice</title>
+  </head>
+  <body>
+    <section id="section1" style="display: flex">
+      <form action="http://localhost:3001/insert" method="post">
+        <h2>Iphone Products</h2>
+
+        <label for="url">Product url</label><br />
+        <input id="url" type="text" name="url" /><br /><br />
+
+        <label for="name">Product name</label><br />
+        <input id="name" type="text" name="name" /><br /><br />
+
+        <label for="bDescription">Brief description</label><br />
+        <input
+          id="bDescription"
+          type="textarea"
+          name="bDescription"
+        /><br /><br />
+
+        <label for="description">Description</label><br />
+        <input
+          id="description"
+          type="textarea"
+          name="description"
+          cols="30"
+          rows="10"
+        /><br /><br />
+
+        <label for="img">Product image</label><br />
+        <input id="img" type="text" name="img" /><br /><br />
+
+        <label for="link">link</label><br />
+        <input id="link" type="text" name="link" /><br /><br />
+
+        <label for="price">price</label><br />
+        <input id="price" type="text" name="price" /><br /><br />
+
+        <label for="priceRange">priceRange</label><br />
+        <input id="priceRange" type="text" name="priceRange" /><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
